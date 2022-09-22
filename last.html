@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lastDigit</title>
+</head>
+<body>
+    <script>
+        const n1 = prompt(`enter 1st number`);
+        const n2 = prompt(`enter 2nd number`);
+        const n3 = prompt(`enter 3rd number`);
+
+        res1 = n1%10;
+        res2 = n2%10;
+        res3 = n3%10;
+
+        if(res1==res2 && res1==res3){
+            document.write(`${n1}, ${n2} and ${n3} have same last digit`)
+        }
+
+        else{
+            document.write(`the last digits of three numbers are not same`)
+        }
+    </script>
+</body>
+</html>
