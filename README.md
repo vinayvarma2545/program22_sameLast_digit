@@ -1,0 +1,1 @@
+# program22_sameLast_digit
